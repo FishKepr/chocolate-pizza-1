@@ -1,0 +1,21 @@
+/* rules of css: find the tag (what) open a curly brcket and tell it what to do (guess). */
+
+img.large {
+  width: 50%
+}
+img.small {
+width: 2%
+}
+p1{
+  font-size: 3pt;
+}
+
+ol {
+list-style-type: square;
+display: inline-block;
+}
+div {
+  background-image: url("https://raw.githubusercontent.com/codefellows/seattle-201d31/master/10-js-debugging-wireframe-part-2/lab-assets/list-bg.png"); 
+  width: 50%
+}
+
