@@ -1,12 +1,48 @@
 <html>
 <head>
   <link rel="stylesheet" href="chocolate-pizza.css">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Oswald|Yellowtail" rel="stylesheet">
+
   <title>Delicious</title>
+  <!-- could have used float in the images to get the icons -->
 </head>
 <body>
-<h>
+  <header>
+    <img src="img/logo.png" id="logoimage" alt="Blog Logo">
+    <div id="rightheader">
+      <ul>
+        <li>
+          <img src="img/fb-icon.png" alt="Facebook Logo">
+        </li>
+        <li>
+          <img src="img/twit-icon.png" alt="Twitter Logo">
+        </li>
+        <li>
+          <img src="img/gp-icon.png" alt="Google Plus Logo">
+        </li>
+        <li>
+          <img src="img/flic-icon.png" alt="Flic Logo">
+        </li>
+        <li>
+          <img src="img/pint-icon.png" alt="Pint Logo">
+        </li>
+        <li>
+          <img src="img/rss-icon.png" id="rssicon" alt="RSS Logo">
+        </li>
+        <li>
+          <img src="img/mail-icon.png" alt="Email">
+        </li>
+      </ul>
+    </div>
+    <div id="logoheader">Delicious</div>
+    <div id="logosubheader">THE BEST FOOD BLOG ON THE WEB</div>
+    <nav>
+    </nav>
+  </header>
+  <h>
 <p>Chocolate Pizza</p>
 <p1>POSTED ON 15 DEC 2013/DESSERTS</p1>
+<br>
 <img src="https://raw.githubusercontent.com/codefellows/seattle-201d31/master/10-js-debugging-wireframe-part-2/lab-assets/choco-pizza.png" class="large" alt="picure of small white chocolate covered cake with various candies on top"/>
 </h>
 <br />
@@ -24,7 +60,7 @@
       Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions,i.e,let spin and thicken for 20 minutes before adding marscapone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.  
   </p5>
 
-<div>
+<div id="recipeCard">
   <ol>
       <li>1 1/2 cups milk</li>
       <li>1/2 cup marscapone</li>
@@ -44,28 +80,15 @@
     </ol>
     
   </div>
-<section>
-  <img src="https://raw.githubusercontent.com/codefellows/seattle-201d31/master/10-js-debugging-wireframe-part-2/lab-assets/van-pic.png" class="small" alt="picture of woman. poss south pacific islander decent">
-  <p6>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p6>
-  <button>
+<section id="bottomBox">
+  <img id= "vanessaPic" src="https://raw.githubusercontent.com/codefellows/seattle-201d31/master/10-js-debugging-wireframe-part-2/lab-assets/van-pic.png" alt="picture of woman. poss south pacific islander descent">
+  <p id="vanessaName">Vanessa Stevenson</p>
+  <p id="vanessa">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+    <button>SHARE RECIPE</button>
 
-  </button>
+  </p>
 </section>
-
-
-
-
-
-
 </body>
-    
-
-
-
-
-
-
-
 </html>
        
 
